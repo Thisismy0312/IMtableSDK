@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IMtableSDK_Example' do
+  pod 'IMtableSDK', :path => '../'
+
+  target 'IMtableSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
