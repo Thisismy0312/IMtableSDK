@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "source_files": "IMtableSDK/Classes/**/*",
   "frameworks": [
     "UIKit",
@@ -33,5 +34,6 @@
     "lottie-ios": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
