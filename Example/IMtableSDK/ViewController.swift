@@ -8,6 +8,7 @@
 
 import UIKit
 import IMtableSDK
+import IMtableSDK_Tests
 
 class ViewController: UIViewController {
     
