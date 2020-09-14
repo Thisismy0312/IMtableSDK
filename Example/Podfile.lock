@@ -1,0 +1,39 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - IMtableSDK (0.1.0):
+    - lottie-ios
+    - Starscream
+    - SwiftyJSON
+  - lottie-ios (3.1.8)
+  - Starscream (4.0.4)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - IMtableSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - lottie-ios
+    - Starscream
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  IMtableSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  IMtableSDK: 6891520c9a9b0bf0d515432d51dff8206722e090
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 75e6e5896dd8d6dd7d09e93f0ec97b95ac370ee4
+
+COCOAPODS: 1.9.1

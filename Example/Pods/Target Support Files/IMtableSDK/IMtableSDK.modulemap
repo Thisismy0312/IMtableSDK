@@ -1,0 +1,6 @@
+framework module IMtableSDK {
+  umbrella header "IMtableSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
